@@ -1,3 +1,9 @@
+/**
+ * @brief - implements idsm library
+ *
+ * @author - Devendra Naga (devendra.aaru@gmail.com)
+ * @copyright - All rights reserved 2022-present Proprietary
+ */
 #ifndef __IDSM_H__
 #define __IDSM_H__
 
@@ -16,6 +22,9 @@ struct idsm_config {
     int proto_version_;
 };
 
+/**
+ * @brief - sender type
+ */
 enum class idsm_sender_type {
     eCAN,
     eEthernet,
@@ -84,3 +93,4 @@ class idsm_intf {
 }
 
 #endif
+

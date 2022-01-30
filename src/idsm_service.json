@@ -1,0 +1,9 @@
+{
+    "enable": true,
+    "local_server_conn_type": "unix",
+    "unix": {
+        "server_addr": "/tmp/idsm_service.sock"
+    },
+    "max_event_storage_size_kbytes": 1024,
+    "reporting_mode": "brief"
+}
